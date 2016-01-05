@@ -1,0 +1,48 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	margin: 0 auto;
+	padding: 12px;
+	padding: 0.75rem;
+}
+
+/** grid **/
+
+.row {
+	font-size: 0px;
+	margin-left: -12px;
+	margin-left: -0.75rem;
+	margin-right: -12px;
+	margin-right: -0.75rem;
+	vertical-align: top;
+}
+
+.s1, .s2, .s3, .s4 {
+	display: inline-block;
+	font-size: 16px;
+	font-size: 1rem;
+	padding: 12px;
+	padding: 0.75rem;
+	vertical-align: top;
+	zoom: 1;
+}
+
+/* column widths */
+.s1 { width: 256px; }
+.s2 { width: 512px; }
+.s3 { width: 768px; }
+.s4 { width: 1024px; }
+
+/* column offsets */
+.p1 { margin-left: 256px; }
+.p2 { margin-left: 512px; }
+.p3 { margin-left: 768px; }
+
+@media ( max-width: 1024px ) {
+	.container, .s1, .s2, .s3, .s4, .row { width: 100%; margin-left: 0; }
+	.container {
+		width: 100%;
+	}
+}
