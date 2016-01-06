@@ -2,6 +2,7 @@
 
 ## Installation
 - PHP 5.6 or 7.0
+- Run `git submodule update --recursive`
 
 ## Contribution
 - Expect _everything_ to be HTTPS.
