@@ -1,5 +1,5 @@
-<!DocType html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>Vala Language</title>
@@ -225,7 +225,7 @@
 						</div>
 						<div class="s1">
 							<h3>News</h3>
-							<p><a href="http://valajournal.blogspot.co.at/">Journal</a></p>
+							<p><a href="http://valajournal.blogspot.com/">Journal</a></p>
 							<p><a href="https://mail.gnome.org/mailman/listinfo/vala-list">Mailing List</a></p>
 							<p><a href="https://wiki.gnome.org/Projects/Vala/Release">Changelog</a></p>
 						</div>
