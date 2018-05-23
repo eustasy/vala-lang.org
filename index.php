@@ -4,13 +4,13 @@
 		<meta charset="UTF-8">
 		<title>Vala Language</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300|Droid+Serif:400|Droid+Sans:400,700|Droid+Sans+Mono">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/eustasy/Colors.css@1/colors.min.css,gh/necolas/normalize.css@8/normalize.min.css">
 		<link rel="stylesheet" href="vertigrid.css">
 		<link rel="stylesheet" href="vala.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<script>
 			var jQl={q:[],dq:[],gs:[],ready:function(e){return'function'==typeof e&&jQl.q.push(e),jQl},getScript:function(e,n){jQl.gs.push([e,n])},unq:function(){for(var e=0;e<jQl.q.length;e++)jQl.q[e]();jQl.q=[]},ungs:function(){for(var e=0;e<jQl.gs.length;e++)jQuery.getScript(jQl.gs[e][0],jQl.gs[e][1]);jQl.gs=[]},bId:null,boot:function(e){return'undefined'==typeof window.jQuery.fn?void(jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(e)},25))):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),jQl.ungs(),jQuery(jQl.unq),void('function'==typeof e&&e()))},booted:function(){return 0===jQl.bId},loadjQ:function(e,n){setTimeout(function(){var n=document.createElement('script');n.src=e,document.getElementsByTagName('head')[0].appendChild(n)},1),jQl.boot(n)},loadjQdep:function(e){jQl.loadxhr(e,jQl.qdep)},qdep:function(e){e&&('undefined'==typeof window.jQuery.fn||jQl.dq.length?jQl.dq.push(e):jQl.rs(e))},unqjQdep:function(){if('undefined'==typeof window.jQuery.fn)return void setTimeout(jQl.unqjQdep,50);for(var e=0;e<jQl.dq.length;e++)jQl.rs(jQl.dq[e]);jQl.dq=[]},rs:function(e){var n=document.createElement('script');document.getElementsByTagName('head')[0].appendChild(n),n.text=e},loadxhr:function(e,n){var t;t=jQl.getxo(),t.onreadystatechange=function(){4==t.readyState&&200==t.status&&n(t.responseText,e)};try{t.open('GET',e,!0),t.send('')}catch(o){}},getxo:function(){var e=!1;try{e=new XMLHttpRequest}catch(n){for(var t=['MSXML2.XMLHTTP.5.0','MSXML2.XMLHTTP.4.0','MSXML2.XMLHTTP.3.0','MSXML2.XMLHTTP','Microsoft.XMLHTTP'],o=0;o<t.length;++o){try{e=new ActiveXObject(t[o])}catch(n){continue}break}}finally{return e}}};if('undefined'==typeof window.jQuery){var $=jQl.ready,jQuery=$;$.getScript=jQl.getScript}
-			jQl.loadjQ('//cdn.jsdelivr.net/g/jquery');
+			jQl.loadjQ('https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js');
 		</script>
 		<script async>
 			$(function() {
